@@ -1,0 +1,25 @@
+.DS_Store
+
+# R and RStudio
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# renv: ignore heavy artifacts, keep bootstrap files
+renv/library/
+renv/staging/
+renv/python/
+renv/cache/
+!renv/activate.R
+!renv/settings.json
+!renv.lock
+
+# Logs and outputs
+*.log
+runout/
+
+# Temp files
+*.swp
+*.swx
+*.tmp
